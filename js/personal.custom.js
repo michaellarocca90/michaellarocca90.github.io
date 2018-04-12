@@ -57,7 +57,7 @@ $(function () {
 
     //typed text
      $(".typed").typed({
-        strings: ["Michael LaRocca", "Web Developer", "Available for hire"],
+        strings: ["Michael LaRocca", "Web Developer", "Open for Hire"],
         typeSpeed: 50,
         backSpeed: 10,
         backDelay: 2000,
