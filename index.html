@@ -220,25 +220,43 @@
         </div>
 
         <!-- Modal TicTacToe -->
-        <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal fade" id="modalTicTacToe" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <h3 class="modal-title" id="exampleModalLongTitle">Tic-Tac-Toe</h3>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                      ...
+                    <div class="modal-body" id="modal-background">
+                        <div id="modal-text">
+                            <p>
+                              This game was my first interaction with React at Learn Academy and it taught me a lot of things
+                            </p>
+                            <ul>
+                                <li>Walk through the logic of your plan to first determine any holes</li>
+                                <li>React best practices</li>
+                                <li>Git and Github for source control</li>
+                                <li>Pair programing over a multiple day project</li>
+                                <li>Virtual DOM manipulation</li>
+                            </ul>
+                            <p>
+                            Tic-Tac-Toe was very rewarding.  Going from a blank page to a working game taught me how to code in small bits, build one small feature after another until eventually you arrive at the end goal. 
+                            </p>
+                        </div>
+                        <a target="_blank" href="https://mike-tictactoe.herokuapp.com/">
+                            <h3 id="modal-link">
+                                <span class="badge badge-secondary">Check it out!</span>
+                            </h3>
+                        </a>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <!-- Modal PixelArt -->
         <div class="modal fade" id="modalPixleArt" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -327,16 +345,16 @@
                             </div>
                         </div>
                     </div><!--/col-->
-                    <div class="col-md-4 mb30">
-                        <a href="javascript:void(0)" class="folio-card">
-                            <img src="images/img3.jpg" alt="" class="img-fluid">
+                    <div class="col-md-4 mb30" data-toggle="modal" data-target="#modalTicTacToe">
+                        <div class="folio-card">
+                            <img src="images/tictactoe.png" alt="" class="img-fluid">
                             <div class="folio-overlay">
                                 <div class="folio-content">
-                                    <h4>Project Title</h4>
-                                    <p>Lorem ipsum dolor</p>
+                                    <h4><u>TicTacToe</u></h4>
+                                    <p>React</p>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div><!--/col-->
                     <div class="col-md-4 mb30">
                         <a href="javascript:void(0)" class="folio-card">
